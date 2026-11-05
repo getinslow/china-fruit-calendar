@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Offline validation, deterministic exports and queries; Python standard library only."""
 import argparse
 from collections import Counter

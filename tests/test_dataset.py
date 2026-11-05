@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Regression checks for data mistakes and unsafe time interpretation."""
 import copy
 from pathlib import Path
