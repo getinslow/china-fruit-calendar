@@ -1,0 +1,68 @@
+[
+  {
+    "id": "audit-zju-2026-201",
+    "patch": {
+      "kind": "采收",
+      "months": [
+        6,
+        7
+      ],
+      "harvestWindow": "seasonal-reference",
+      "sourcePeriod": "6月中下旬至7月中旬",
+      "note": "综合雷岭果园多季采摘记录，产区采收参考为6月中下旬至7月中旬。",
+      "sourceTitle": "南方农村报 · 广东荔枝产季调查",
+      "url": "https://static.nfnews.com/content/202607/15/c12627032.html",
+      "sourceDate": "2026-07-15",
+      "checkedAt": "2026-11-05",
+      "additionalSources": [
+        {
+          "sourceTitle": "南方网 · 雷岭乌叶现场采摘",
+          "url": "https://news.southcn.com/node_eb61ce3e63/2205a5680c.shtml"
+        },
+        {
+          "sourceTitle": "汕头市工商联 · 雷岭荔枝助农活动",
+          "url": "https://stgsl.shantou.gov.cn/stgsl/hyhwxx/202507/dd4b9acacfd740299b187f93102c9602.shtml"
+        },
+        {
+          "sourceTitle": "南方日报 · 丰产增收给“荔”",
+          "url": "https://epaper.nfnews.com/nfdaily/html/202506/12/content_10138351.html"
+        },
+        {
+          "sourceTitle": "广东省农业科学院 · 汕头院地合作调研",
+          "url": "https://www.gdaas.cn/ztzln/bqw/xwdt/content/post_1315924.html"
+        },
+        {
+          "sourceTitle": "南方网 · 汕头雷岭品种与熟期",
+          "url": "https://news.southcn.com/node_b6acdc8047/9ff2655ade.shtml"
+        },
+        {
+          "sourceTitle": "雷岭荔枝地理标志产品信息 · 感官指标",
+          "url": "https://www.sinogi.cn/wap/index.php/product/gg/id/9954"
+        }
+      ]
+    },
+    "rationale": "6月中旬及7月上旬有当地实采，7月中旬有收官记录，按跨年证据综合为产区级参考。各年各品种不同。",
+    "evidenceQuote": "7月14日雷岭镇最后一批荔枝完成采收。",
+    "researchFile": "data/origin-profiles.json",
+    "previousObservation": {
+      "id": "audit-zju-2026-201",
+      "patch": {
+        "kind": "采收",
+        "months": [
+          6
+        ],
+        "year": 2024,
+        "note": "2024年6月，汕头雷岭乌叶荔枝正在采摘。",
+        "url": "https://news.southcn.com/node_eb61ce3e63/2205a5680c.shtml",
+        "sourceTitle": "雷岭荔枝上市",
+        "sourceDate": "2024-06-18",
+        "observedDate": "2024-06-15",
+        "harvestWindow": "annual-observation",
+        "checkedAt": "2026-11-05"
+      },
+      "evidenceQuote": "早上4点多就到园子里去采摘荔枝了",
+      "researchFile": "qa/all-seasons-research-b.json",
+      "rationale": "现场采访明确产品品种和采摘。"
+    }
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-11-05",
+  "baseline": "Independent data snapshot; no application or photo dependencies",
+  "statistics": {
+    "records": 767,
+    "withMonths": 653,
+    "withoutMonths": 114,
+    "rawFruitLabels": 68,
+    "rawProvinceLabels": 58,
+    "profiles": 637,
+    "sourceUrls": 1123,
+    "kinds": {
+      "产地": 114,
+      "赏果": 4,
+      "赏花": 2,
+      "采收": 630,
+      "食用": 17
+    }
+  },
+  "files": {
+    "data/origin-profiles.json": {
+      "bytes": 333232,
+      "sha256": "98fed44ba0b03f76433156e75e0732d4f14278afa176158bb29f3a3f00449c4d"
+    },
+    "data/product-scope.json": {
+      "bytes": 2237,
+      "sha256": "8c21889b7eed034fb7cea190375890eed56545fd6cad1166cc0bf91300bc567a"
+    },
+    "data/records-full.json": {
+      "bytes": 902163,
+      "sha256": "4e78254453c3c2f022be8d01e15d96a0b5182b387e0179b9357641285d9c84e4"
+    },
+    "data/scope-exclusions.json": {
+      "bytes": 1210,
+      "sha256": "26efb8b8b86c39d6fe4bb85070b2e4bdbd82e15b9d5e6b195f4cf70c0c2369bb"
+    },
+    "data/search-aliases.json": {
+      "bytes": 73526,
+      "sha256": "12ea41885b5d3d722d1433a5778ce34d536f4383fb01c9cc740f782388d63900"
+    },
+    "data/season-revisions.json": {
+      "bytes": 2738,
+      "sha256": "363f7ced1284753359bdee73335930c83b94ae93bb638dfe37edd64e944f9710"
+    },
+    "data/sources.json": {
+      "bytes": 501977,
+      "sha256": "46a606b7ec27f8ca475ab5c00b4a37186f6ee5234b140916971e25556d753a17"
+    },
+    "exports/fruit-seasons.csv": {
+      "bytes": 212578,
+      "sha256": "3323f4264666a4603c51845e3893f6bbc00ddde9f983e4203e202a586869fa6c"
+    },
+    "exports/records.csv": {
+      "bytes": 248025,
+      "sha256": "ffb9da44580e3042c6085a4853bc441eb4bc2fb35bc54731d407d1ef60a1070b"
+    }
+  }
+}

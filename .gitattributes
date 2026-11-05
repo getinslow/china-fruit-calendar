@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+# Preserve the original snapshot bytes and hashes across Windows/Linux checkouts.
+data/records-full.json -text
+data/origin-profiles.json -text
+data/search-aliases.json -text
+data/product-scope.json -text
+data/scope-exclusions.json -text
+data/season-revisions.json -text

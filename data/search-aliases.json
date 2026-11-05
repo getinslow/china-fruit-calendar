@@ -1,0 +1,2339 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-04",
+  "scope": "原有类别及audit-missing-fruits、audit-temperate新增类别逐类复核；搜索别名不添加产区、物候或植物身份事实，不修改fruit分类。 本轮最终补查圣女果、青梅、余甘子、青枣四类。 鲜果补漏新增鲜枸杞、拐枣/鸡爪梨有据名称；不混入黑枸杞或干制商品。",
+  "sources": {
+    "cctv-chunjian": {
+      "sourceTitle": "央视：耙耙柑、粑粑柑还是𤆵𤆵柑？",
+      "url": "https://news.cctv.com/2026/02/09/ARTIRgZ9Ev5slhOOmTOo8l3G260209.shtml",
+      "evidenceSummary": "植物学专家将这些写法解释为春见的四川方言称呼。",
+      "reviewedAt": "2026-11-04"
+    },
+    "kepu-shiranui": {
+      "sourceTitle": "科普中国：丑柑",
+      "url": "https://img1.kepuchina.cn/wiki/ct/201903/t20190320_1028434.shtml",
+      "evidenceSummary": "明确丑橘、丑桔、不知火的对应关系，并要求与春见区分。",
+      "reviewedAt": "2026-11-04"
+    },
+    "mot-names": {
+      "sourceTitle": "交通运输部附件3：水果别名及常用商品名称对照表",
+      "url": "https://xxgk.mot.gov.cn/jigou/glj/202301/P020230119517474781161.pdf",
+      "evidenceSummary": "提供水果名称、地方称呼与商品品种对照；混含品种及上位类别，不能整体当同义词表。",
+      "reviewedAt": "2026-11-04"
+    },
+    "moa-2034": {
+      "sourceTitle": "农业部公告第2034号",
+      "url": "https://jgs.moa.gov.cn/gzdt/jgjdt/201312/t20131231_6296016.htm",
+      "evidenceSummary": "列示桑葚（椹）；金橘的别名含金柑、金桔。",
+      "reviewedAt": "2026-11-04"
+    },
+    "guangzhou-strawberry": {
+      "sourceTitle": "广州网信办：冬季岭南水果谁属第一？",
+      "url": "https://www.gzwxb.gov.cn/context/contextId/207661",
+      "evidenceSummary": "地方水果介绍明确草莓也称士多啤梨。",
+      "reviewedAt": "2026-11-04"
+    },
+    "afa-annona": {
+      "sourceTitle": "农粮署：释迦",
+      "url": "https://www.afa.gov.tw/cht/index.php?article_id=23749&code=list&flag=detail&ids=654",
+      "evidenceSummary": "介绍番荔枝与释迦名称关系；此处是普通番荔枝，不代表所有番荔枝属物种同种。",
+      "reviewedAt": "2026-11-04"
+    },
+    "moa-atemoya": {
+      "sourceTitle": "农业知识入口网：认识凤梨释迦",
+      "url": "https://kmweb.moa.gov.tw/subject/subject.php?id=15103",
+      "evidenceSummary": "说明凤梨释迦是番荔枝与冷子番荔枝的杂交类型，并列旺来释迦、蜜释迦、奇美释迦的地区用名。",
+      "reviewedAt": "2026-11-04"
+    },
+    "moa-atemoya-not-pineapple": {
+      "sourceTitle": "农粮署：凤梨释迦和凤梨有关系吗",
+      "url": "https://fae.moa.gov.tw/theme_data.php?id=4852&sub_theme=knowledge&theme=topics",
+      "evidenceSummary": "说明命名来自风味，并非与凤梨杂交；据此禁止菠萝搜索召回凤梨释迦。",
+      "reviewedAt": "2026-11-04"
+    },
+    "shenzhen-names": {
+      "sourceTitle": "深圳地方标准DB4403/T 346—2023 表B.1",
+      "url": "https://amr.sz.gov.cn/attachment/1/1315/1315322/9772236.pdf",
+      "evidenceSummary": "名称表列番石榴/芭乐、番荔枝/释迦果、榴莲/榴梿；仅采用清楚对应的少量名称。全文过大，核验依据为该官方PDF的可检索表项。",
+      "reviewedAt": "2026-11-04"
+    },
+    "caas-kiwi-cherry": {
+      "sourceTitle": "中国农科院：车厘子和樱桃，奇异果和猕猴桃，是一回事吗",
+      "url": "https://caas.cn/xwzx/mtxw/8302ebb5f059435a8a7bef84075a4564.htm",
+      "evidenceSummary": "专家解释奇异果名称及车厘子通常指欧洲甜樱桃，不代表所有中国樱桃。",
+      "reviewedAt": "2026-11-04"
+    },
+    "hk-longan": {
+      "sourceTitle": "香港卫生署：龙眼",
+      "url": "https://school.eatsmart.gov.hk/gb/content_joyful.aspx?id=6456",
+      "evidenceSummary": "龙眼又名桂圆，但桂圆也常表示干制产品；名称召回不能改写鲜果和干制品果期。",
+      "reviewedAt": "2026-11-04"
+    },
+    "taoyuan-carambola": {
+      "sourceTitle": "桃园区农业改良场：杨桃",
+      "url": "https://www.tydares.gov.tw/ws.php?id=8708&print=Y",
+      "evidenceSummary": "列示五敛子、五棱果等名称及广东五稔；羊桃也见于其他植物，未启用无条件映射。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cas-mangosteen": {
+      "sourceTitle": "中科院版纳植物园首次收获成熟山竹果实",
+      "url": "https://xtbg.cas.cn/2022/wzbc/ylxx_1/202209/t20220910_6511481.html",
+      "evidenceSummary": "明确山竹又名莽吉柿，学名Garcinia mangostana；原文的引种结果不能当全国商业产区数据。",
+      "reviewedAt": "2026-11-04"
+    },
+    "longyang-prune": {
+      "sourceTitle": "隆阳区政府：西梅挂满枝，采摘正当时",
+      "url": "https://www.longyang.gov.cn/info/4423/13890779.htm",
+      "evidenceSummary": "当地种植报道明确西梅为欧洲李、又称西洋李，不等同所有李子。",
+      "reviewedAt": "2026-11-04"
+    },
+    "fengcheng-physalis": {
+      "sourceTitle": "人民网辽宁：丹东凤城洋菇娘，长在灯笼里的黄色浆果",
+      "url": "https://ln.people.com.cn/BIG5/n2/2020/0512/c378316-34011923-2.html",
+      "evidenceSummary": "原产地报道将当地洋菇娘称作毛酸浆、灯笼果、洋菇茑；限该商品语境，不推为全部酸浆同物。",
+      "reviewedAt": "2026-11-04"
+    },
+    "lichuan-lantern": {
+      "sourceTitle": "黎川县政府：灯笼果甜蜜绽放",
+      "url": "https://www.jxlcx.gov.cn/art/2025/5/30/art_2466_4314371.html",
+      "evidenceSummary": "当地采摘报道将姑娘果也称灯笼果，但没有足够物种识别信息。",
+      "reviewedAt": "2026-11-04"
+    },
+    "fujian-physalis": {
+      "sourceTitle": "福建省卫健委中药资源目录",
+      "url": "https://wjw.fujian.gov.cn/jggk/csxx/zyyglcszyyglj/jyky/202002/P020200204634764095694.pdf",
+      "evidenceSummary": "目录分别列酸浆Physalis alkekengi、黄姑娘Physalis minima、灯笼果Physalis peruviana，表明俗名不可替代物种鉴定。",
+      "reviewedAt": "2026-11-04"
+    },
+    "dg-passion": {
+      "sourceTitle": "东莞植物园：西番莲",
+      "url": "https://dgcg.dg.gov.cn/zwy/wzby/200808/46f09b9f3e7d4b2dba6f2f0dc786180a.shtml",
+      "evidenceSummary": "以食用百香果相关植物介绍热情果等名称。西番莲属含其他植物，按既有百香果身份限制召回。",
+      "reviewedAt": "2026-11-04"
+    },
+    "moa-passion": {
+      "sourceTitle": "农业部食农教育：百香果",
+      "url": "https://fae.moa.gov.tw/map/food_item.php?id=90&type=AS01",
+      "evidenceSummary": "食农教材列西番莲果、西番果、时计果等名称；本表采用其中不易混淆的用词。",
+      "reviewedAt": "2026-11-04"
+    },
+    "shanghai-pepino": {
+      "sourceTitle": "上海市农业农村委：人参果是什么蔬菜，怎样栽培",
+      "url": "https://nyncw.sh.gov.cn/bwbdzzl/20181219/0009-108182.html",
+      "evidenceSummary": "确认市场人参果的香艳梨、香瓜梨、香艳茄等名称；不把其他也叫人参果的植物并入。",
+      "reviewedAt": "2026-11-04"
+    },
+    "caas-pepino": {
+      "sourceTitle": "农业行业标准农产品分类（农科院存本）",
+      "url": "https://aii.caas.cn/docs/2021-06/20210601143321431036.pdf",
+      "evidenceSummary": "分类中人参果列香瓜茄别名，火龙果列红龙果、仙蜜果；以官方PDF检索表项核验，全文打开超时。",
+      "reviewedAt": "2026-11-04"
+    },
+    "forestry-seabuckthorn": {
+      "sourceTitle": "国家林草局：沙棘，天然维生素宝库",
+      "url": "https://www.forestry.gov.cn/c/www/smcqzt/16978.jhtml",
+      "evidenceSummary": "明确沙棘及其果实的醋柳、醋柳果、酸刺果称呼。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cas-sugarcane": {
+      "sourceTitle": "中科院微生物所：甘蔗的前世今生",
+      "url": "https://im.cas.cn/kxcb/kpwz/202510/t20251022_7994303.html",
+      "evidenceSummary": "竹蔗指甘蔗中国种的代表原始种，不能把竹蔗搜索扩大为所有甘蔗。",
+      "reviewedAt": "2026-11-04"
+    },
+    "hunan-sugarcane": {
+      "sourceTitle": "湖南市场监管局：甘蔗选购",
+      "url": "https://amr.hunan.gov.cn/xxx/xtdtx/202412/t20241224_33535670.html",
+      "evidenceSummary": "区分果蔗与糖蔗用途；黑蔗是紫黑皮甘蔗俗称，按子类型限制。",
+      "reviewedAt": "2026-11-04"
+    },
+    "frps-physalis": {
+      "sourceTitle": "中国植物志：毛酸浆",
+      "url": "https://www.iplant.cn/frps/pdf/67%281%29/058b.pdf",
+      "evidenceSummary": "毛酸浆条目以Physalis pubescens记载，并收录吉林洋姑娘用名；用于核对毛酸浆与其他酸浆类不可混同。",
+      "reviewedAt": "2026-11-04"
+    },
+    "jilin-physalis": {
+      "sourceTitle": "中国吉林网：蛟河漂河镇洋菇娘产业",
+      "url": "https://jl.cnjiwang.com/ywq/202606/4059973.html",
+      "evidenceSummary": "原产地采访明确洋菇娘的学名为毛酸浆。",
+      "reviewedAt": "2026-11-04"
+    },
+    "physalis-research": {
+      "sourceTitle": "北方园艺2021(07)：毛酸浆研究",
+      "url": "https://www.aeeisp.com/bfyy/cn/article/pdf/preview/9adfd6e1-d92d-42be-b4ae-0604deb93b85.pdf",
+      "evidenceSummary": "研究正文以Physalis pubescens对应菇娘、洋菇娘、黄菇娘、甜菇娘，并含大黄菇娘果材料。",
+      "reviewedAt": "2026-11-04"
+    },
+    "huocheng-prune": {
+      "sourceTitle": "霍城县政府：万亩新梅喜迎丰收",
+      "url": "https://www.xjhc.gov.cn/xjhc/c113324/202508/372dafda89d04578b05b339da0d20b6a.shtml",
+      "evidenceSummary": "当地果园采访及林业站介绍反复并用新梅（西梅）；只确立名称关系，不把新梅1号等品种扩成全类。",
+      "reviewedAt": "2026-11-04"
+    },
+    "hunan-avocado": {
+      "sourceTitle": "湖南省林业局：值得我国热区发展的果树—油梨",
+      "url": "https://lyj.hunan.gov.cn/tslm_71206/lykp/syjs/201512/t20151227_2615592.html",
+      "evidenceSummary": "首段明确油梨又名鳄梨、酪梨、牛油果；仅采纳名称关系，不复用文中健康宣传和旧产地/月份。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cas-papaya": {
+      "sourceTitle": "中国科学院武汉植物园：投我以木瓜，报之以……",
+      "url": "https://www.wbg.cas.cn/KPPJ/zrjy/hbsjt/202112/t20211220_6314206.html",
+      "evidenceSummary": "明确鲜食水果番木瓜Carica papaya与蔷薇科木瓜不同；全文打开超时，核对官方页面可检索段落。",
+      "reviewedAt": "2026-11-04"
+    },
+    "zhanglin-annona": {
+      "sourceTitle": "汕头市人大：这就是和美汕头",
+      "url": "https://rd.shantou.gov.cn/rd/zjshmst/201908/fcdd0e55adf14860aa6e8b2802582c5b.shtml",
+      "evidenceSummary": "樟林地方介绍明确林檎为番荔枝；全文打开超时，核对官方页面可检索段落。",
+      "reviewedAt": "2026-11-04"
+    },
+    "gdszx-linqin": {
+      "sourceTitle": "广东政协刊物：樟林林檎",
+      "url": "https://www.gdszx.gov.cn/attachment/0/0/351/36289.pdf",
+      "evidenceSummary": "明确澄海林檎指番荔枝，不同于古代中国和日本所称苹果；PDF打开超时，核对官方可检索段落。",
+      "reviewedAt": "2026-11-04"
+    },
+    "tfri-starapple": {
+      "sourceTitle": "林业试验所恒春热带植物园：星苹果",
+      "url": "https://hctbg.tfri.gov.tw/view.php?id=3355&subtheme=&theme=plants",
+      "evidenceSummary": "植物名录明确星苹果Chrysophyllum cainito的别名为牛奶果；未把木奶果、裸称奶果视作同义。",
+      "reviewedAt": "2026-11-04"
+    },
+    "bucm-physalis-names": {
+      "sourceTitle": "北京中医药大学博物馆：锦灯笼与水果菇茑",
+      "url": "https://bowuguan.bucm.edu.cn/kpzl/zyyzs/47316.htm",
+      "evidenceSummary": "水果段使用菇娘、菇茑、姑娘，且说明北方商品可能涉及黄果酸浆和毛酸浆。只采纳俗名关系，不复用医疗/营养结论。",
+      "reviewedAt": "2026-11-04"
+    },
+    "bucm-physalis-species": {
+      "sourceTitle": "北京中医药大学博物馆：水果菇茑是中药锦灯笼吗",
+      "url": "https://bowuguan.bucm.edu.cn/kpzl/zyyzs/44682.htm",
+      "evidenceSummary": "区分酸浆红姑娘与多种食用菇茑，明确毛酸浆Physalis pubescens和灯笼果Physalis peruviana分别识别；不能只凭俗名或南北地区定种。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cas-jackfruit": {
+      "sourceTitle": "中国科学院武汉植物园：一个波罗蜜，N个小核果",
+      "url": "https://www.wbg.cas.cn/KPPJ/zrjy/hbsjt/201501/t20150112_4297173.html",
+      "evidenceSummary": "波罗蜜Artocarpus heterophyllus别名包括木菠萝、树菠萝；与菠萝分别识别。",
+      "reviewedAt": "2026-11-04"
+    },
+    "hk-dates": {
+      "sourceTitle": "香港卫生署：趣谈中药—大枣及不同名称的枣",
+      "url": "https://www.cmro.gov.hk/html/gb/useful_information/public_health/publication/Interesting_Chinese_Herbs_2.html",
+      "evidenceSummary": "对照表明确椰枣又名海枣，是棕榈科枣椰树的果实，不能因为含枣字并入普通枣。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cas-eggfruit": {
+      "sourceTitle": "中国科学院版纳植物园：热带名贵水果—蛋黄果",
+      "url": "https://xtbg.cas.cn/2022/wzbc/ylxx_1/201211/t20121123_3688013.html",
+      "evidenceSummary": "机构原文明确蛋黄果又名鸡蛋果、仙桃；鸡蛋果采用多义候选查询，不能将蛋黄果与百香果互为同义，仙桃仍保留地名边界。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cas-eggfruit-cultivars": {
+      "sourceTitle": "中国农学通报：4个蛋黄果品种在孟连地区的引种表现及评价",
+      "url": "https://www.casb.org.cn/CN/10.11924/j.issn.1000-6850.casb2023-0815",
+      "evidenceSummary": "试验明确木瓜仙桃为蛋黄果品种，用作长复合名保护，不能拆成木瓜或普通桃。",
+      "reviewedAt": "2026-11-04"
+    },
+    "wuhan-cherrytomato": {
+      "sourceTitle": "武汉市农业农村局：汉产冬季圣女果提早上市",
+      "url": "https://nyncj.wuhan.gov.cn/xwzx_25/whsn/202311/t20231107_2296109.html",
+      "evidenceSummary": "市农技推广中心受访专家明确圣女果又叫樱桃番茄、小番茄。",
+      "reviewedAt": "2026-11-04"
+    },
+    "mot-vegetables": {
+      "sourceTitle": "交通运输部附件：蔬菜别名及常用商品名称对照表",
+      "url": "https://xxgk.mot.gov.cn/jigou/glj/202301/P020230119517474576854.pdf",
+      "evidenceSummary": "樱桃番茄列圣女果、小西红柿、小番茄等；番茄另列西红柿。只采用明确对应形式，不用小柿子、洋枣跨水果归并。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cas-greenplum": {
+      "sourceTitle": "中国科学院武汉植物园：“青梅煮酒”论青梅",
+      "url": "https://www.wbg.cas.cn/KPPJ/zrjy/hbsjt/201601/t20160126_4525594.html",
+      "evidenceSummary": "果梅果实称梅子，未成熟时青色故称青梅；名称不能据此扩成李子、西梅或所有加工梅制品。全文获取超时，核对官方可检索段落。",
+      "reviewedAt": "2026-11-04"
+    },
+    "spkx-emblic": {
+      "sourceTitle": "食品科学：油甘果实的营养及其开发利用",
+      "url": "https://www.spkx.net.cn/CN/Y1987/V8/I10/59",
+      "evidenceSummary": "福建省亚热带植物所作者论文摘要明确油甘Phyllanthus emblica又名余甘子、油甘子、庵摩勒；仅采用名称关系。",
+      "reviewedAt": "2026-11-04"
+    },
+    "gdaas-emblic": {
+      "sourceTitle": "广东省农业科学院：果树所在油甘果采后病害研究方面取得新进展",
+      "url": "https://www.gdaas.cn/gdfruit/xv/content/mpost_1147685.html",
+      "evidenceSummary": "研究所原文使用油甘果并将油甘与余甘子Phyllanthus emblica对应；本轮正文由研究分工核验，网页工具仅解析出标题。",
+      "reviewedAt": "2026-11-04"
+    },
+    "shanghai-indianjujube": {
+      "sourceTitle": "上海市农业农村委：绿色食品产品适用标准目录（2018版）",
+      "url": "https://nyncw.sh.gov.cn/ncpaqnybz/20190103/0009-110103.html",
+      "evidenceSummary": "热带亚热带水果表中毛叶枣的别名为印度枣、台湾青枣；与普通枣不同，交叉核对香港卫生署青枣表项。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cas-passion-eggfruit": {
+      "sourceTitle": "中国科学院华南植物园：颜值爆表 内涵丰富——鸡蛋果",
+      "url": "https://scib.cas.cn/hx/201907/t20190713_6734973.html",
+      "evidenceSummary": "机构文章明确市场将鸡蛋果称为百香果，学名为Passiflora edulis；与蛋黄果共享俗名不代表同一水果。",
+      "reviewedAt": "2026-11-04"
+    },
+    "fujian-fenglisu": {
+      "sourceTitle": "福建省人民政府：同安凤梨穗，甜出新滋味",
+      "url": "https://www.fujian.gov.cn/zwgk/ztzl/sxzygwzxsgzx/flsxkmh/202509/t20250917_7010692.htm",
+      "evidenceSummary": "官方报道明确同安凤梨穗为龙眼，属于受限品种身份，不是凤梨/菠萝。",
+      "reviewedAt": "2026-11-04"
+    },
+    "jincheng-dahuangli": {
+      "sourceTitle": "晋城市农业农村局：关于市八届人大三次会议第339号建议的答复",
+      "url": "https://xxgk.jcgov.gov.cn/szfgzbm/jcsnyncj/fdzdgknr_31370/tadf_nync/202309/t20230928_1861755.shtml",
+      "evidenceSummary": "正式答复明确高平大黄梨是当地特有的地方梨品种，完整品种名不能按黄梨拆成菠萝。",
+      "reviewedAt": "2026-11-04"
+    },
+    "zhongning-fresh-goji": {
+      "sourceTitle": "中宁县人民政府 · 中宁特产",
+      "url": "https://www.znzf.gov.cn/zjzn/zngk/znts/",
+      "evidenceSummary": "鲜枸杞是未制干枸杞的形态名称；本库仅收鲜品。",
+      "reviewedAt": "2026-11-04"
+    },
+    "cctv-hovenia": {
+      "sourceTitle": "央视网 · 给你一拐枣 品秋天里最古老的甜蜜",
+      "url": "https://tv.cctv.com/2023/09/12/ARTIUIhuUcJymR05fy2hDYza230911.shtml",
+      "evidenceSummary": "拐枣别名鸡爪梨；可食部为膨大肉质果梗。万寿果有同名异物，本轮不泛化。",
+      "reviewedAt": "2026-11-04"
+    }
+  },
+  "groups": [
+    {
+      "id": "chunjian",
+      "canonical": "春见",
+      "aliases": [
+        "耙耙柑",
+        "粑粑柑",
+        "𤆵𤆵柑"
+      ],
+      "targetType": "cultivar",
+      "fruitNames": [
+        "柑橘"
+      ],
+      "identityTerms": [
+        "春见",
+        "耙耙柑",
+        "粑粑柑",
+        "𤆵𤆵柑"
+      ],
+      "recordIds": [
+        "pujiang-eat"
+      ],
+      "regions": [
+        "四川（来源说明其方言由来；不限制异地查询）"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "cctv-chunjian"
+      ],
+      "evidenceSummary": "这组写法指向春见品种。",
+      "recordBindings": [
+        {
+          "id": "pujiang-eat",
+          "evidenceField": "note/sourceTitle",
+          "evidenceSummary": "旧记录标题只写柑橘，但正文与来源标题明确是蒲江春见/耙耙柑，故允许此ID受限匹配。",
+          "url": "https://static.nfnews.com/content/202502/09/c10975964.html"
+        }
+      ]
+    },
+    {
+      "id": "shiranui",
+      "canonical": "不知火",
+      "aliases": [
+        "丑橘",
+        "丑桔",
+        "丑柑"
+      ],
+      "targetType": "cultivar",
+      "fruitNames": [
+        "柑橘"
+      ],
+      "identityTerms": [
+        "不知火",
+        "丑橘",
+        "丑桔",
+        "丑柑"
+      ],
+      "recordIds": [],
+      "regions": [
+        "四川及其他种植地区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "kepu-shiranui"
+      ],
+      "evidenceSummary": "不知火与春见分开。"
+    },
+    {
+      "id": "guava",
+      "canonical": "番石榴",
+      "aliases": [
+        "芭乐",
+        "芭樂"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "番石榴",
+        "芭乐",
+        "芭樂"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "台湾",
+        "广东"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "mot-names",
+        "shenzhen-names"
+      ],
+      "evidenceSummary": "番石榴的地方商品称呼。"
+    },
+    {
+      "id": "annona",
+      "canonical": "释迦",
+      "aliases": [
+        "释迦果",
+        "番荔枝",
+        "釋迦"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "释迦",
+        "释迦果",
+        "番荔枝",
+        "釋迦"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "台湾及华南"
+      ],
+      "ambiguity": {
+        "status": "qualified",
+        "note": "普通番荔枝与凤梨释迦并非同一种；本产品释迦是浏览类目，具体记录保留品种。"
+      },
+      "sourceIds": [
+        "afa-annona"
+      ],
+      "evidenceSummary": "按产品现有释迦入口召回，物种/杂交类型不在搜索层合并。"
+    },
+    {
+      "id": "atemoya",
+      "canonical": "凤梨释迦",
+      "aliases": [
+        "鳳梨釋迦",
+        "旺来释迦",
+        "旺來釋迦",
+        "蜜释迦",
+        "蜜釋迦",
+        "奇美释迦",
+        "奇美釋迦"
+      ],
+      "targetType": "cultivar",
+      "fruitNames": [
+        "释迦",
+        "番荔枝",
+        "凤梨释迦"
+      ],
+      "identityTerms": [
+        "凤梨释迦",
+        "鳳梨釋迦",
+        "旺来释迦",
+        "旺來釋迦",
+        "蜜释迦",
+        "蜜釋迦",
+        "奇美释迦",
+        "奇美釋迦"
+      ],
+      "recordIds": [
+        "taitung-atemoya"
+      ],
+      "regions": [
+        "台湾"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "moa-atemoya",
+        "moa-atemoya-not-pineapple"
+      ],
+      "evidenceSummary": "限定凤梨释迦杂交类型，不属于菠萝。",
+      "recordBindings": [
+        {
+          "id": "taitung-atemoya",
+          "evidenceField": "note/sourceTitle",
+          "evidenceSummary": "旧记录水果类目只写释迦，正文与来源标题明确为凤梨释迦；不扩及其他释迦。",
+          "url": "https://www.afa.gov.tw/cht/index.php?act=download&ids=46551"
+        }
+      ]
+    },
+    {
+      "id": "strawberry",
+      "canonical": "草莓",
+      "aliases": [
+        "士多啤梨"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "草莓",
+        "士多啤梨"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "广东",
+        "香港",
+        "澳门"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "guangzhou-strawberry"
+      ],
+      "evidenceSummary": "粤语商品名称。"
+    },
+    {
+      "id": "pineapple",
+      "canonical": "菠萝",
+      "aliases": [
+        "凤梨",
+        "鳳梨",
+        "黄梨",
+        "黃梨",
+        "番梨"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "菠萝",
+        "凤梨",
+        "鳳梨",
+        "黄梨",
+        "黃梨",
+        "番梨"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "来源未限定用名地域；不据词名推断产区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "mot-names",
+        "shenzhen-names"
+      ],
+      "evidenceSummary": "只匹配菠萝身份，不把名称含凤梨的其他水果纳入。"
+    },
+    {
+      "id": "mulberry",
+      "canonical": "桑葚",
+      "aliases": [
+        "桑椹",
+        "桑果",
+        "桑子"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "桑葚",
+        "桑椹",
+        "桑果",
+        "桑子"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "moa-2034",
+        "mot-names"
+      ],
+      "evidenceSummary": "兼容异体和常见地方称呼。"
+    },
+    {
+      "id": "kumquat",
+      "canonical": "金桔",
+      "aliases": [
+        "金橘",
+        "金柑"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "金桔",
+        "金橘",
+        "金柑"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "qualified",
+        "note": "不把四季橘等金柑杂交类型无条件并入。"
+      },
+      "sourceIds": [
+        "moa-2034"
+      ],
+      "evidenceSummary": "标准列出的对应名称。"
+    },
+    {
+      "id": "kiwi",
+      "canonical": "猕猴桃",
+      "aliases": [
+        "奇异果",
+        "奇異果"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "猕猴桃",
+        "奇异果",
+        "奇異果"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "caas-kiwi-cherry"
+      ],
+      "evidenceSummary": "商品命名对应，来源地和品种仍以记录为准。"
+    },
+    {
+      "id": "longan",
+      "canonical": "龙眼",
+      "aliases": [
+        "桂圆",
+        "桂圓"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "龙眼",
+        "桂圆",
+        "桂圓"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "qualified",
+        "note": "桂圆也常指龙眼干；搜索结果是原记录物候，不表示干果上市期。"
+      },
+      "sourceIds": [
+        "hk-longan"
+      ],
+      "evidenceSummary": "可用于查找龙眼果历。"
+    },
+    {
+      "id": "carambola",
+      "canonical": "杨桃",
+      "aliases": [
+        "阳桃",
+        "五敛子",
+        "五斂子",
+        "五棱果",
+        "五稔",
+        "星星果"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "杨桃",
+        "阳桃",
+        "五敛子",
+        "五棱果"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "广东",
+        "台湾",
+        "云南等用名"
+      ],
+      "ambiguity": {
+        "status": "qualified",
+        "note": "羊桃还用于猕猴桃等植物，本表不作自动同义映射。"
+      },
+      "sourceIds": [
+        "taoyuan-carambola",
+        "mot-names"
+      ],
+      "evidenceSummary": "采用可核对的地方名称。"
+    },
+    {
+      "id": "mangosteen",
+      "canonical": "山竹",
+      "aliases": [
+        "莽吉柿",
+        "山竺"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "山竹",
+        "莽吉柿",
+        "山竺"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "cas-mangosteen",
+        "shenzhen-names"
+      ],
+      "evidenceSummary": "仅山竹果实实体。"
+    },
+    {
+      "id": "durian",
+      "canonical": "榴莲",
+      "aliases": [
+        "榴梿",
+        "榴槤"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "榴莲",
+        "榴梿",
+        "榴槤"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "来源未限定用名地域；不据字形推断产区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "shenzhen-names"
+      ],
+      "evidenceSummary": "兼容常见书写差异。"
+    },
+    {
+      "id": "prune",
+      "canonical": "西梅",
+      "aliases": [
+        "欧洲李",
+        "歐洲李",
+        "西洋李",
+        "新梅"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "西梅",
+        "欧洲李",
+        "歐洲李",
+        "西洋李",
+        "新梅"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "qualified",
+        "note": "不把李子全部视为西梅，也不映射黑枣等多义商品名。"
+      },
+      "sourceIds": [
+        "longyang-prune",
+        "huocheng-prune"
+      ],
+      "evidenceSummary": "西梅/欧洲李/西洋李及新疆产区的新梅用名；新梅1号等仍按具体文字限定品种。"
+    },
+    {
+      "id": "physalis-market",
+      "canonical": "姑娘果",
+      "aliases": [
+        "洋菇娘",
+        "洋菇茑",
+        "菇娘果",
+        "洋姑娘",
+        "黄菇娘",
+        "甜菇娘",
+        "菇娘",
+        "菇茑",
+        "姑娘"
+      ],
+      "targetType": "ambiguous",
+      "fruitNames": [
+        "姑娘果",
+        "毛酸浆",
+        "洋菇娘",
+        "洋菇茑",
+        "菇娘果",
+        "洋姑娘",
+        "黄菇娘",
+        "甜菇娘",
+        "菇娘",
+        "菇茑",
+        "灯笼果"
+      ],
+      "identityTerms": [
+        "姑娘果",
+        "菇娘",
+        "菇茑",
+        "洋姑娘"
+      ],
+      "recordIds": [],
+      "regions": [
+        "辽宁凤城",
+        "东北用名"
+      ],
+      "ambiguity": {
+        "status": "ambiguous",
+        "note": "姑娘果、菇娘、菇茑、姑娘是商品俗名，可能涉及不同酸浆属植物；结果保留各条记录的身份，未注明学名的产地不自动视为毛酸浆。"
+      },
+      "sourceIds": [
+        "bucm-physalis-names",
+        "bucm-physalis-species",
+        "physalis-research",
+        "fengcheng-physalis"
+      ],
+      "evidenceSummary": "姑娘果、菇娘、菇茑、姑娘作为商品俗名召回候选；不由商品俗名推定具体物种。"
+    },
+    {
+      "id": "lantern-ambiguous",
+      "canonical": "灯笼果",
+      "aliases": [
+        "燈籠果"
+      ],
+      "targetType": "ambiguous",
+      "fruitNames": [
+        "姑娘果",
+        "毛酸浆",
+        "灯笼果",
+        "燈籠果"
+      ],
+      "identityTerms": [
+        "灯笼果",
+        "燈籠果"
+      ],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "qualified",
+        "note": "灯笼果一名多物，可指毛酸浆或Physalis peruviana等；不要直接等同红姑娘、酸浆或醋栗，请核对具体记录。"
+      },
+      "sourceIds": [
+        "fengcheng-physalis",
+        "lichuan-lantern",
+        "fujian-physalis"
+      ],
+      "evidenceSummary": "支持已有姑娘果商品记录和明确写灯笼果的记录，保持各实体分组。"
+    },
+    {
+      "id": "passion",
+      "canonical": "百香果",
+      "aliases": [
+        "热情果",
+        "紫果西番莲",
+        "西番莲果",
+        "西番果"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "百香果",
+        "热情果",
+        "紫果西番莲",
+        "西番莲果",
+        "西番果"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "qualified",
+        "note": "西番莲属有多种植物；鸡蛋果另设多义查询，百香果的精确搜索不扩展到蛋黄果。"
+      },
+      "sourceIds": [
+        "dg-passion",
+        "moa-passion"
+      ],
+      "evidenceSummary": "只按食用百香果身份召回。"
+    },
+    {
+      "id": "chicken-egg-fruit-ambiguous",
+      "canonical": "鸡蛋果",
+      "aliases": [
+        "雞蛋果"
+      ],
+      "targetType": "ambiguous",
+      "fruitNames": [
+        "百香果",
+        "蛋黄果"
+      ],
+      "identityTerms": [
+        "百香果",
+        "蛋黄果"
+      ],
+      "recordIds": [],
+      "regions": [
+        "名称用法，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "ambiguous",
+        "note": "鸡蛋果一名多物，在不同地区可指百香果或蛋黄果，以下分别列出；两类的产地、果期与图片各自保留。"
+      },
+      "sourceIds": [
+        "cas-passion-eggfruit",
+        "cas-eggfruit"
+      ],
+      "evidenceSummary": "两个植物园分别确认百香果及蛋黄果的鸡蛋果用名。只对共享俗名返回两类候选，不反向扩展两类精确名称。"
+    },
+    {
+      "id": "waxapple",
+      "canonical": "莲雾",
+      "aliases": [
+        "洋蒲桃",
+        "琏雾"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "莲雾",
+        "洋蒲桃",
+        "琏雾"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "华南",
+        "台湾"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "mot-names"
+      ],
+      "evidenceSummary": "只采用明确对应项，不把蒲桃属都作为莲雾。"
+    },
+    {
+      "id": "hawthorn",
+      "canonical": "山楂",
+      "aliases": [
+        "山里红"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "山楂",
+        "山里红"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "mot-names"
+      ],
+      "evidenceSummary": "地方名称按山楂商品类召回，具体品种不改。"
+    },
+    {
+      "id": "olive",
+      "canonical": "橄榄",
+      "aliases": [
+        "青果",
+        "白榄"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "橄榄",
+        "青果",
+        "白榄"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "福建",
+        "广东"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "mot-names"
+      ],
+      "evidenceSummary": "中式橄榄名称；不把油橄榄或余甘子并入。"
+    },
+    {
+      "id": "mango",
+      "canonical": "芒果",
+      "aliases": [
+        "杧果",
+        "檬果"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "芒果",
+        "杧果",
+        "檬果"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "mot-names"
+      ],
+      "evidenceSummary": "兼容常见异写。"
+    },
+    {
+      "id": "dragonfruit",
+      "canonical": "火龙果",
+      "aliases": [
+        "红龙果",
+        "仙蜜果"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "火龙果",
+        "红龙果",
+        "仙蜜果"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "caas-pepino"
+      ],
+      "evidenceSummary": "商品名称对应，红白肉品种保留。"
+    },
+    {
+      "id": "pepino",
+      "canonical": "人参果",
+      "aliases": [
+        "香瓜茄",
+        "香瓜梨",
+        "香艳梨",
+        "香艳茄"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "人参果",
+        "香瓜茄",
+        "香瓜梨",
+        "香艳梨",
+        "香艳茄"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "qualified",
+        "note": "人参果属于多义俗名，本表只服务已有香瓜茄类水果记录。"
+      },
+      "sourceIds": [
+        "shanghai-pepino",
+        "caas-pepino"
+      ],
+      "evidenceSummary": "限定水果市场香瓜茄类，非其他同名植物。"
+    },
+    {
+      "id": "seabuckthorn",
+      "canonical": "沙棘",
+      "aliases": [
+        "醋柳",
+        "醋柳果",
+        "酸刺果"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "沙棘",
+        "醋柳",
+        "醋柳果",
+        "酸刺果"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "西北",
+        "华北"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "forestry-seabuckthorn"
+      ],
+      "evidenceSummary": "使用植物及果实地方用名。"
+    },
+    {
+      "id": "sweetcherry",
+      "canonical": "欧洲甜樱桃",
+      "aliases": [
+        "车厘子",
+        "車厘子",
+        "大樱桃",
+        "甜樱桃"
+      ],
+      "targetType": "subtype",
+      "fruitNames": [
+        "樱桃",
+        "欧洲甜樱桃",
+        "大樱桃",
+        "甜樱桃"
+      ],
+      "identityTerms": [
+        "欧洲甜樱桃",
+        "车厘子",
+        "車厘子",
+        "大樱桃",
+        "甜樱桃"
+      ],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "caas-kiwi-cherry"
+      ],
+      "evidenceSummary": "只召回明确甜樱桃/大樱桃身份，不将所有樱桃归为车厘子。"
+    },
+    {
+      "id": "black-cane",
+      "canonical": "黑皮甘蔗",
+      "aliases": [
+        "黑蔗"
+      ],
+      "targetType": "subtype",
+      "fruitNames": [
+        "甘蔗",
+        "果蔗",
+        "黑皮甘蔗",
+        "黑蔗"
+      ],
+      "identityTerms": [
+        "黑皮甘蔗",
+        "黑蔗",
+        "紫黑甘蔗"
+      ],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "hunan-sugarcane"
+      ],
+      "evidenceSummary": "仅黑皮甘蔗子类。"
+    },
+    {
+      "id": "bamboo-cane",
+      "canonical": "竹蔗",
+      "aliases": [],
+      "targetType": "subtype",
+      "fruitNames": [
+        "甘蔗",
+        "竹蔗"
+      ],
+      "identityTerms": [
+        "竹蔗"
+      ],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "cas-sugarcane"
+      ],
+      "evidenceSummary": "仅明确记录竹蔗，不泛化全部甘蔗。"
+    },
+    {
+      "id": "jackfruit-guard",
+      "canonical": "菠萝蜜",
+      "aliases": [
+        "木菠萝",
+        "树菠萝",
+        "波罗蜜"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "菠萝蜜",
+        "木菠萝",
+        "树菠萝",
+        "波罗蜜"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "未限定；来源用名不构成产区排他限制"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "cas-jackfruit",
+        "moa-2034"
+      ],
+      "evidenceSummary": "从长名保护扩充为有证据的名称组；木菠萝、树菠萝与菠萝分开。"
+    },
+    {
+      "id": "physalis-pubescens",
+      "canonical": "毛酸浆",
+      "aliases": [
+        "毛酸漿"
+      ],
+      "targetType": "subtype",
+      "fruitNames": [
+        "姑娘果",
+        "毛酸浆",
+        "毛酸漿",
+        "灯笼果",
+        "Physalis pubescens"
+      ],
+      "identityTerms": [
+        "毛酸浆",
+        "毛酸漿",
+        "Physalis pubescens"
+      ],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "毛酸浆只匹配标题、品种或物种字段已明确的记录；姑娘果、菇娘等俗名本身不足以确认物种。"
+      },
+      "sourceIds": [
+        "frps-physalis",
+        "physalis-research",
+        "bucm-physalis-species"
+      ],
+      "evidenceSummary": "独立物种查询；不把备注提及毛酸浆或产地位于东北当成定种证据。本轮不作记录ID推定绑定。"
+    },
+    {
+      "id": "red-physalis-guard",
+      "canonical": "红姑娘",
+      "aliases": [
+        "紅姑娘"
+      ],
+      "targetType": "subtype",
+      "fruitNames": [
+        "酸浆",
+        "红姑娘",
+        "紅姑娘"
+      ],
+      "identityTerms": [
+        "红姑娘",
+        "紅姑娘"
+      ],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "红姑娘与食用菇娘不能只凭名称相近视作同种。"
+      },
+      "sourceIds": [
+        "bucm-physalis-species"
+      ],
+      "evidenceSummary": "保护完整俗名，不把红姑娘拆成红＋姑娘商品别名。"
+    },
+    {
+      "id": "avocado",
+      "canonical": "牛油果",
+      "aliases": [
+        "油梨",
+        "鳄梨",
+        "鱷梨",
+        "酪梨"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "牛油果",
+        "油梨",
+        "鳄梨",
+        "鱷梨",
+        "酪梨"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "hunan-avocado"
+      ],
+      "evidenceSummary": "官方林业科普明确对应；不自动等同普通梨。"
+    },
+    {
+      "id": "papaya",
+      "canonical": "番木瓜",
+      "aliases": [
+        "木瓜"
+      ],
+      "targetType": "subtype",
+      "fruitNames": [
+        "木瓜",
+        "番木瓜"
+      ],
+      "identityTerms": [
+        "番木瓜",
+        "Carica papaya"
+      ],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "木瓜有同名异物；此处只匹配已明确为番木瓜的水果记录，不混入皱皮木瓜、光皮木瓜或木瓜仙桃。"
+      },
+      "sourceIds": [
+        "cas-papaya"
+      ],
+      "evidenceSummary": "保留鲜食番木瓜身份；仅写木瓜而没有明确身份的记录不猜定种。"
+    },
+    {
+      "id": "zhanglin-linqin",
+      "canonical": "樟林番荔枝",
+      "aliases": [
+        "林檎"
+      ],
+      "targetType": "subtype",
+      "fruitNames": [
+        "释迦",
+        "番荔枝",
+        "林檎"
+      ],
+      "identityTerms": [
+        "樟林番荔枝",
+        "林檎"
+      ],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "潮汕林檎指番荔枝，其他语境也可能指苹果类；本次仅匹配明确采用该地方用名的番荔枝记录，不展开为全部苹果或释迦。"
+      },
+      "sourceIds": [
+        "zhanglin-annona",
+        "gdszx-linqin"
+      ],
+      "evidenceSummary": "限定记录身份，非水果大类无条件互换。"
+    },
+    {
+      "id": "starapple",
+      "canonical": "星苹果",
+      "aliases": [
+        "星蘋果",
+        "牛奶果"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "星苹果",
+        "星蘋果",
+        "牛奶果"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "星苹果（牛奶果）与普通苹果、木奶果分别识别；裸称奶果尚未确证。"
+      },
+      "sourceIds": [
+        "tfri-starapple"
+      ],
+      "evidenceSummary": "只采用官方植物名录明确列出的别名。"
+    },
+    {
+      "id": "date-palm",
+      "canonical": "椰枣",
+      "aliases": [
+        "海枣"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "椰枣",
+        "海枣"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "椰枣（海枣）与普通枣不是同一种水果；不扩展为其他观赏海枣属植物。"
+      },
+      "sourceIds": [
+        "hk-dates"
+      ],
+      "evidenceSummary": "官方对照表明确名称及植物类别。"
+    },
+    {
+      "id": "apple-identity",
+      "canonical": "苹果",
+      "aliases": [],
+      "targetType": "fruit",
+      "fruitNames": [
+        "苹果"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "mot-names"
+      ],
+      "evidenceSummary": "保护苹果水果身份，避免查苹果召回仅在名称/备注里含苹果的星苹果。"
+    },
+    {
+      "id": "jujube-identity",
+      "canonical": "枣",
+      "aliases": [],
+      "targetType": "fruit",
+      "fruitNames": [
+        "枣"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "hk-dates"
+      ],
+      "evidenceSummary": "保护普通枣身份，避免查枣仅凭子串召回椰枣。"
+    },
+    {
+      "id": "applepear-guard",
+      "canonical": "苹果梨",
+      "aliases": [],
+      "targetType": "subtype",
+      "fruitNames": [
+        "梨",
+        "苹果梨"
+      ],
+      "identityTerms": [
+        "苹果梨"
+      ],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "mot-names"
+      ],
+      "evidenceSummary": "保留已有梨品种文字身份；保护完整复合名，不拆成苹果＋梨。"
+    },
+    {
+      "id": "eggfruit-papaya-guard",
+      "canonical": "木瓜仙桃",
+      "aliases": [],
+      "targetType": "subtype",
+      "fruitNames": [
+        "蛋黄果",
+        "木瓜仙桃"
+      ],
+      "identityTerms": [
+        "木瓜仙桃"
+      ],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "cas-eggfruit-cultivars"
+      ],
+      "evidenceSummary": "保护明确蛋黄果品种，不拆成番木瓜名称＋仙桃。"
+    },
+    {
+      "id": "cherry-tomato",
+      "canonical": "圣女果",
+      "aliases": [
+        "樱桃番茄",
+        "小番茄",
+        "小西红柿"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "圣女果",
+        "樱桃番茄",
+        "小番茄",
+        "小西红柿"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "名称用法，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "圣女果按小果型番茄商品类检索，不将普通大果番茄全部视作圣女果，也不并入樱桃。"
+      },
+      "sourceIds": [
+        "wuhan-cherrytomato",
+        "mot-vegetables"
+      ],
+      "evidenceSummary": "采用小果番茄常用商品名，不限定成单一圣女品种。"
+    },
+    {
+      "id": "tomato-broad",
+      "canonical": "番茄",
+      "aliases": [
+        "西红柿"
+      ],
+      "targetType": "ambiguous",
+      "fruitNames": [
+        "番茄",
+        "西红柿",
+        "圣女果",
+        "樱桃番茄",
+        "小番茄",
+        "小西红柿"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "名称用法，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "番茄是宽泛查询，可包含圣女果等小果型；具体记录仍保留其品种与商品名称。"
+      },
+      "sourceIds": [
+        "mot-vegetables",
+        "wuhan-cherrytomato"
+      ],
+      "evidenceSummary": "上位查询含小果型，不把番茄与圣女果当成全量可互换同义。"
+    },
+    {
+      "id": "green-plum",
+      "canonical": "青梅",
+      "aliases": [
+        "果梅",
+        "梅子"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "青梅",
+        "果梅"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "名称用法，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "梅子是较宽泛的称谓；此处按已有青梅/果梅身份匹配，不把李子、西梅、杨梅或加工话梅自动并入。"
+      },
+      "sourceIds": [
+        "cas-greenplum"
+      ],
+      "evidenceSummary": "按现有水果身份限定，来源只支持果梅相关用名。"
+    },
+    {
+      "id": "emblic",
+      "canonical": "余甘子",
+      "aliases": [
+        "油甘",
+        "油甘子",
+        "油甘果",
+        "庵摩勒"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "余甘子",
+        "油甘",
+        "油甘子",
+        "油甘果",
+        "庵摩勒"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "名称用法，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "余甘子与普通橄榄分开；不因酸涩口感或含甘字混并其他水果。"
+      },
+      "sourceIds": [
+        "spkx-emblic",
+        "gdaas-emblic"
+      ],
+      "evidenceSummary": "研究论文和农科院资料直接支持名称对应。"
+    },
+    {
+      "id": "indian-jujube",
+      "canonical": "青枣",
+      "aliases": [
+        "印度枣",
+        "毛叶枣",
+        "台湾青枣"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "青枣",
+        "印度枣",
+        "毛叶枣",
+        "台湾青枣"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "名称用法，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "这里的青枣指毛叶枣/印度枣商品类，不是普通冬枣，也不是所有尚青未熟的枣；不与椰枣合并。"
+      },
+      "sourceIds": [
+        "shanghai-indianjujube",
+        "hk-dates"
+      ],
+      "evidenceSummary": "依据正式目录和官方对照表，只匹配独立青枣身份。"
+    },
+    {
+      "id": "cherry-identity",
+      "canonical": "樱桃",
+      "aliases": [],
+      "targetType": "fruit",
+      "fruitNames": [
+        "樱桃",
+        "大樱桃",
+        "甜樱桃",
+        "欧洲甜樱桃",
+        "中国樱桃"
+      ],
+      "identityTerms": [],
+      "recordIds": [],
+      "regions": [
+        "名称用法，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "none",
+        "note": ""
+      },
+      "sourceIds": [
+        "caas-kiwi-cherry",
+        "mot-vegetables"
+      ],
+      "evidenceSummary": "保护樱桃水果身份，避免正文含樱桃番茄就召回圣女果；甜樱桃子类查询继续受限。"
+    },
+    {
+      "id": "fenglisu-longan-guard",
+      "canonical": "凤梨穗",
+      "aliases": [],
+      "targetType": "subtype",
+      "fruitNames": [
+        "龙眼"
+      ],
+      "identityTerms": [
+        "凤梨穗"
+      ],
+      "recordIds": [],
+      "regions": [
+        "来源品种语境，不据此扩大所有产地或品种"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "凤梨穗按龙眼的具体品种查询，保留完整名称，不拆成菠萝别名。"
+      },
+      "sourceIds": [
+        "fujian-fenglisu"
+      ],
+      "evidenceSummary": "仅匹配龙眼身份且标题、名称或品种字段明确包含凤梨穗的记录；备注提及不能成为身份，不扩展为所有龙眼。"
+    },
+    {
+      "id": "dahuangli-pear-guard",
+      "canonical": "大黄梨",
+      "aliases": [],
+      "targetType": "subtype",
+      "fruitNames": [
+        "梨"
+      ],
+      "identityTerms": [
+        "大黄梨"
+      ],
+      "recordIds": [],
+      "regions": [
+        "来源品种语境，不据此扩大所有产地或品种"
+      ],
+      "ambiguity": {
+        "status": "contextual",
+        "note": "大黄梨按梨的具体品种查询，保留完整名称，不拆成菠萝别名。"
+      },
+      "sourceIds": [
+        "jincheng-dahuangli"
+      ],
+      "evidenceSummary": "仅匹配梨身份且标题、名称或品种字段明确包含大黄梨的记录；备注提及不能成为身份，不扩展为所有梨。"
+    },
+    {
+      "id": "fresh-goji",
+      "canonical": "枸杞",
+      "aliases": [
+        "鲜枸杞"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "枸杞"
+      ],
+      "identityTerms": [
+        "枸杞"
+      ],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "unambiguous-within-scope",
+        "note": ""
+      },
+      "sourceIds": [
+        "zhongning-fresh-goji"
+      ],
+      "evidenceSummary": "鲜枸杞是未制干枸杞的形态名称；本库仅收鲜品。"
+    },
+    {
+      "id": "hovenia",
+      "canonical": "拐枣",
+      "aliases": [
+        "鸡爪梨"
+      ],
+      "targetType": "fruit",
+      "fruitNames": [
+        "拐枣"
+      ],
+      "identityTerms": [
+        "拐枣"
+      ],
+      "recordIds": [],
+      "regions": [
+        "用名来源说明，不限制用户所在地区"
+      ],
+      "ambiguity": {
+        "status": "unambiguous-within-scope",
+        "note": ""
+      },
+      "sourceIds": [
+        "cctv-hovenia"
+      ],
+      "evidenceSummary": "拐枣别名鸡爪梨；可食部为膨大肉质果梗。万寿果有同名异物，本轮不泛化。"
+    }
+  ],
+  "runtimeProjection": [
+    "id",
+    "canonical",
+    "aliases",
+    "targetType",
+    "fruitNames",
+    "identityTerms",
+    "recordIds",
+    "ambiguity.note"
+  ],
+  "categoryAudit": [
+    {
+      "fruit": "百香果",
+      "scope": "existing39",
+      "groupIds": [
+        "passion",
+        "chicken-egg-fruit-ambiguous"
+      ],
+      "decision": "鸡蛋果/雞蛋果独立返回百香果、蛋黄果候选，两类精确名称不互相扩展。西番莲未无条件展开。"
+    },
+    {
+      "fruit": "菠萝",
+      "scope": "existing39",
+      "groupIds": [
+        "pineapple"
+      ],
+      "decision": "凤梨释迦、菠萝蜜分开；不因备注提到凤梨而误召回。"
+    },
+    {
+      "fruit": "草莓",
+      "scope": "existing39",
+      "groupIds": [
+        "strawberry"
+      ],
+      "decision": "士多啤梨可用，白草莓仍是具体品种描述。"
+    },
+    {
+      "fruit": "橙子",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "已有入口归并不代表同义；脐橙、甜橙查询仍按具体文字匹配。"
+    },
+    {
+      "fruit": "刺梨",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "本轮未找到足够可靠且直接的地方同义证据；茨梨等未启用。"
+    },
+    {
+      "fruit": "番石榴",
+      "scope": "existing39",
+      "groupIds": [
+        "guava"
+      ],
+      "decision": "保留与普通石榴的边界；未将所有泛称番桃启用。"
+    },
+    {
+      "fruit": "柑橘",
+      "scope": "existing39",
+      "groupIds": [
+        "chunjian",
+        "shiranui"
+      ],
+      "decision": "春见与不知火严格分开；橘子、桔子未泛化为全部柑橘。"
+    },
+    {
+      "fruit": "橄榄",
+      "scope": "existing39",
+      "groupIds": [
+        "olive"
+      ],
+      "decision": "中式橄榄；不扩大为油橄榄或余甘子。"
+    },
+    {
+      "fruit": "火龙果",
+      "scope": "existing39",
+      "groupIds": [
+        "dragonfruit"
+      ],
+      "decision": "红龙果为别名不代表只查红心；红白肉品种不改。"
+    },
+    {
+      "fruit": "金桔",
+      "scope": "existing39",
+      "groupIds": [
+        "kumquat"
+      ],
+      "decision": "不泛化四季橘等不同杂交类群。"
+    },
+    {
+      "fruit": "蓝莓",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "越橘类包含多种实体，未作蓝莓的无条件同义。"
+    },
+    {
+      "fruit": "梨",
+      "scope": "existing39",
+      "groupIds": [
+        "applepear-guard",
+        "dahuangli-pear-guard"
+      ],
+      "decision": "苹果梨保留具体品种；未把鸭梨、香梨扩大到全部梨。 大黄梨采用有来源的完整子类词保护，不按菠萝别名拆分。"
+    },
+    {
+      "fruit": "李子",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "黑布林/布冧待逐品种核实；西梅独立处理，不并普通李。"
+    },
+    {
+      "fruit": "荔枝",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "本轮未新增常见地方同义词；糯米糍等品种不等同全部荔枝。"
+    },
+    {
+      "fruit": "莲雾",
+      "scope": "existing39",
+      "groupIds": [
+        "waxapple"
+      ],
+      "decision": "蒲桃属其他水果不并入。"
+    },
+    {
+      "fruit": "龙眼",
+      "scope": "existing39",
+      "groupIds": [
+        "longan",
+        "fenglisu-longan-guard"
+      ],
+      "decision": "桂圆可能指干制品；只召回原果讯，不推干果上市期。 凤梨穗采用有来源的完整子类词保护，不按菠萝别名拆分。"
+    },
+    {
+      "fruit": "芒果",
+      "scope": "existing39",
+      "groupIds": [
+        "mango"
+      ],
+      "decision": "品种名称仍保留，不将椰香等风味词当芒果身份。"
+    },
+    {
+      "fruit": "猕猴桃",
+      "scope": "existing39",
+      "groupIds": [
+        "kiwi"
+      ],
+      "decision": "奇异果可用，不推断进口身份。"
+    },
+    {
+      "fruit": "柠檬",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "来檬/莱檬、佛手等不是全部柠檬的可互换同义词。"
+    },
+    {
+      "fruit": "枇杷",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "卢桔等古称本轮不为扩词量启用；保留枇杷与品种文字搜索。"
+    },
+    {
+      "fruit": "苹果",
+      "scope": "existing39",
+      "groupIds": [
+        "apple-identity"
+      ],
+      "decision": "只按苹果身份；不因星苹果等复合名召回，不以林檎全量扩展苹果。"
+    },
+    {
+      "fruit": "葡萄",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "提子与红提等商品子类未泛化成所有葡萄；当前按记录原文搜索。"
+    },
+    {
+      "fruit": "人参果",
+      "scope": "existing39",
+      "groupIds": [
+        "pepino"
+      ],
+      "decision": "限定现有香瓜茄类；不并其他同名植物。"
+    },
+    {
+      "fruit": "桑葚",
+      "scope": "existing39",
+      "groupIds": [
+        "mulberry"
+      ],
+      "decision": "覆盖异体和经核验地方称呼。"
+    },
+    {
+      "fruit": "沙棘",
+      "scope": "existing39",
+      "groupIds": [
+        "seabuckthorn"
+      ],
+      "decision": "未启用泛指性很强的黑刺等短词。"
+    },
+    {
+      "fruit": "山楂",
+      "scope": "existing39",
+      "groupIds": [
+        "hawthorn"
+      ],
+      "decision": "山里红按商品类别搜索；泛称红果未启用。"
+    },
+    {
+      "fruit": "石榴",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "番石榴不合并；软籽石榴仍是具体类型。"
+    },
+    {
+      "fruit": "柿子",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "脆柿、甜柿、月柿等品种/食用品质描述不等同全部柿子。"
+    },
+    {
+      "fruit": "释迦",
+      "scope": "existing39",
+      "groupIds": [
+        "annona",
+        "atemoya",
+        "zhanglin-linqin"
+      ],
+      "decision": "林檎限地方名称明确的番荔枝；凤梨释迦保留杂交类型边界。"
+    },
+    {
+      "fruit": "桃",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "黄桃、油桃、蟠桃、水蜜桃不相互全量展开。"
+    },
+    {
+      "fruit": "甜瓜",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "香瓜在不同资料中存在范围差别；不把哈密瓜等所有品种当完全同义。"
+    },
+    {
+      "fruit": "无花果",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "蓬莱柿等是具体品种；本轮不作全类同义扩展。"
+    },
+    {
+      "fruit": "西瓜",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "保留正常名称及品种词；未新增无可靠证据的地方短词。"
+    },
+    {
+      "fruit": "香蕉",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "芭蕉、粉蕉与香蕉类群有边界；不整类无条件互换。"
+    },
+    {
+      "fruit": "杏",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "梅与杏不因商品对照表同栏而并为同物。"
+    },
+    {
+      "fruit": "杨梅",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "不与树莓混淆；本轮无新增必要地方同义词。"
+    },
+    {
+      "fruit": "樱桃",
+      "scope": "existing39",
+      "groupIds": [
+        "sweetcherry",
+        "cherry-identity"
+      ],
+      "decision": "车厘子只匹配明示甜樱桃/大樱桃，不把中国小樱桃算入。"
+    },
+    {
+      "fruit": "柚子",
+      "scope": "existing39",
+      "groupIds": [],
+      "decision": "西柚/葡萄柚属于应单独核查的类型，不扩大成所有柚子。"
+    },
+    {
+      "fruit": "枣",
+      "scope": "existing39",
+      "groupIds": [
+        "jujube-identity"
+      ],
+      "decision": "只按普通枣身份；椰枣/海枣不并入，红枣等干鲜商品称呼不一概互换。"
+    },
+    {
+      "fruit": "榴莲",
+      "scope": "requested6",
+      "groupIds": [
+        "durian"
+      ],
+      "decision": "新增覆盖请求；金枕、猫山王仍需明示品种，不等同所有榴莲。"
+    },
+    {
+      "fruit": "杨桃",
+      "scope": "requested6",
+      "groupIds": [
+        "carambola"
+      ],
+      "decision": "新增覆盖请求；羊桃多义，暂不自动映射。"
+    },
+    {
+      "fruit": "姑娘果",
+      "scope": "requested6",
+      "groupIds": [
+        "physalis-market",
+        "physalis-pubescens",
+        "lantern-ambiguous"
+      ],
+      "decision": "商品俗名可多候选；毛酸浆只认明确身份，不把江城/黎川/桦川等未定种记录自动归为毛酸浆。"
+    },
+    {
+      "fruit": "山竹",
+      "scope": "requested6",
+      "groupIds": [
+        "mangosteen"
+      ],
+      "decision": "新增覆盖请求；品种名不代替国内商业产地证据。"
+    },
+    {
+      "fruit": "西梅",
+      "scope": "requested6",
+      "groupIds": [
+        "prune"
+      ],
+      "decision": "加入新疆用名新梅；与李子独立，不把新梅1号等品种词删掉。"
+    },
+    {
+      "fruit": "甘蔗",
+      "scope": "requested6",
+      "groupIds": [
+        "black-cane",
+        "bamboo-cane"
+      ],
+      "decision": "新增覆盖请求；竹蔗和黑蔗是子类，果蔗/糖蔗不能无条件互换。"
+    },
+    {
+      "fruit": "番荔枝",
+      "scope": "expanded-audit",
+      "groupIds": [
+        "annona",
+        "atemoya",
+        "zhanglin-linqin"
+      ],
+      "decision": "沿用当前数据入口，不改fruit分类；搜索别名可指向释迦相关记录，但不把普通番荔枝、凤梨释迦混成同一品种。"
+    },
+    {
+      "fruit": "牛油果",
+      "scope": "expanded-audit",
+      "groupIds": [
+        "avocado"
+      ],
+      "decision": "油梨、鳄梨、酪梨可用；不并普通梨。"
+    },
+    {
+      "fruit": "木瓜",
+      "scope": "expanded-audit",
+      "groupIds": [
+        "papaya"
+      ],
+      "decision": "番木瓜只匹配明确身份；不能用笼统木瓜类别把蔷薇科木瓜混进来。"
+    },
+    {
+      "fruit": "星苹果",
+      "scope": "expanded-audit",
+      "groupIds": [
+        "starapple"
+      ],
+      "decision": "牛奶果与星蘋果可用；奶果未获可靠直接证据，木奶果不采用。"
+    },
+    {
+      "fruit": "菠萝蜜",
+      "scope": "expanded-audit",
+      "groupIds": [
+        "jackfruit-guard"
+      ],
+      "decision": "木菠萝、树菠萝、波罗蜜有证据；与菠萝、榴莲蜜分开。"
+    },
+    {
+      "fruit": "椰枣",
+      "scope": "expanded-audit",
+      "groupIds": [
+        "date-palm"
+      ],
+      "decision": "海枣可用；与普通枣独立，别名层不修改水果分类。"
+    },
+    {
+      "fruit": "蛋黄果",
+      "scope": "expanded-audit",
+      "groupIds": [
+        "eggfruit-papaya-guard",
+        "chicken-egg-fruit-ambiguous"
+      ],
+      "decision": "鸡蛋果/雞蛋果独立返回百香果、蛋黄果候选，两类精确名称不互相扩展。仙桃仍有地名歧义；木瓜仙桃保持完整品种保护。"
+    },
+    {
+      "fruit": "红毛丹",
+      "scope": "expanded-audit",
+      "groupIds": [],
+      "decision": "韶子涉及近缘分类/变种差异，本轮不以属名或泛称毛荔枝无条件扩展。"
+    },
+    {
+      "fruit": "黄皮",
+      "scope": "expanded-audit",
+      "groupIds": [],
+      "decision": "本轮保留黄皮原名及具体品种文字；鸡皮果等候选未完成直接证据核验，不强补。"
+    },
+    {
+      "fruit": "椰子",
+      "scope": "expanded-audit",
+      "groupIds": [],
+      "decision": "椰青、椰皇、毛椰等是成熟度或商品处理差异，本轮不作为所有椰子的完全同义。"
+    },
+    {
+      "fruit": "树莓",
+      "scope": "expanded-audit",
+      "groupIds": [],
+      "decision": "覆盆子/悬钩子涉及不同物种和商品范围；本轮不按属名全量扩展。"
+    },
+    {
+      "fruit": "海棠",
+      "scope": "expanded-audit",
+      "groupIds": [],
+      "decision": "食用海棠与观赏海棠范围不同；沙果、花红等未逐种确证，不合并苹果。"
+    },
+    {
+      "fruit": "圣女果",
+      "scope": "final-four-categories",
+      "groupIds": [
+        "cherry-tomato",
+        "tomato-broad"
+      ],
+      "decision": "小番茄/樱桃番茄/小西红柿可用；番茄/西红柿为上位候选查询，不把大果番茄当圣女果。"
+    },
+    {
+      "fruit": "青梅",
+      "scope": "final-four-categories",
+      "groupIds": [
+        "green-plum"
+      ],
+      "decision": "果梅/梅子按既有青梅身份召回；不展开李子、西梅、杨梅，不反推鲜食月份。"
+    },
+    {
+      "fruit": "余甘子",
+      "scope": "final-four-categories",
+      "groupIds": [
+        "emblic"
+      ],
+      "decision": "油甘/油甘子/油甘果/庵摩勒有研究来源支持；不并普通橄榄。"
+    },
+    {
+      "fruit": "青枣",
+      "scope": "final-four-categories",
+      "groupIds": [
+        "indian-jujube"
+      ],
+      "decision": "印度枣/毛叶枣/台湾青枣可用；独立于普通枣、冬枣、椰枣，不按青色未熟描述匹配。"
+    },
+    {
+      "fruit": "枸杞",
+      "scope": "fresh-only-revision",
+      "groupIds": [
+        "fresh-goji"
+      ],
+      "decision": "鲜枸杞按本库未加工鲜果形态召回；不合并黑枸杞、干制品。"
+    },
+    {
+      "fruit": "拐枣",
+      "scope": "fresh-only-revision",
+      "groupIds": [
+        "hovenia"
+      ],
+      "decision": "鸡爪梨有央视名称证据；可食部是果梗，不合并普通枣、酸枣、梨。万寿果暂不启用。"
+    },
+    {
+      "fruit": "酸枣",
+      "scope": "fresh-only-revision",
+      "groupIds": [],
+      "decision": "保持独立于普通枣、青枣、南酸枣；酸枣仁属于非鲜果种仁。"
+    },
+    {
+      "fruit": "蓝靛果",
+      "scope": "fresh-only-revision",
+      "groupIds": [],
+      "decision": "保持独立于蓝莓和黑加仑；山茄子用名仍需消歧，未启用泛化别名。"
+    },
+    {
+      "fruit": "黑莓",
+      "scope": "fresh-only-revision",
+      "groupIds": [],
+      "decision": "不合并桑葚或树莓；本轮使用已核实正式果名。"
+    },
+    {
+      "fruit": "蔓越莓",
+      "scope": "fresh-only-revision",
+      "groupIds": [],
+      "decision": "鲜果与果干、果汁分开；本轮未新增未经核实的商品俗名。"
+    }
+  ],
+  "knownLimitations": [
+    "覆盖是名称审查范围，不表示每类已经有地方别名或已有产区记录。",
+    "没有验证的候选不加入运行词表；地方习惯可一名多物，地域字段是用名背景而不是搜索地域限制。",
+    "植物分类与商品分类不同，sources中的商品对照表不能直接用于物种同一性判断。",
+    "未实现任意拼音、错别字、同音字或全繁简转换；仅支持词表列明形式及NFKC大小写规范化。",
+    "来源有时包含营养/医疗宣传，本任务只取名称关系，不采信或复用这些健康结论。",
+    "商品俗名姑娘果/菇娘/菇茑/姑娘可召回多个候选；毛酸浆仅认明确标题/品种/物种字段，记录数量可为0。",
+    "奶果、木奶果、仙桃、覆盆子、韶子等未作无条件同义扩展；未确证不等于不存在该用名。",
+    "林檎仅启用有直接证据的地方番荔枝用法；不把所有苹果或释迦自动召回。"
+  ]
+}
