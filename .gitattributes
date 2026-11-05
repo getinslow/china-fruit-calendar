@@ -11,3 +11,4 @@ data/search-aliases.json -text
 data/product-scope.json -text
 data/scope-exclusions.json -text
 data/season-revisions.json -text
+data/*.json whitespace=cr-at-eol
